@@ -5,7 +5,7 @@ import Portfolio from '../components/Portfolio'
 
 const Home = () => {
   return (
-    <div>
+    <div className="space-y-20 sm:space-y-24 md:space-y-28 lg:space-y-32">
       <Intro />
       <Skill />
       <Portfolio />

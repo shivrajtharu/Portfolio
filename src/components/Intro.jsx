@@ -1,14 +1,13 @@
 import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
 import { PiHandbagSimpleFill } from "react-icons/pi";
-import Skill from "./Skill";
 
 const Intro = () => {
   return (
     <>
       <div className="container !mb-24">
         <div className="flex items-center gap-35">
-          <div className="max-w-2xl flex flex-col gap-2">
+          <div className="max-w-2xl flex flex-col gap-2 !mt-25">
             <h2 className="text-2xl font-semibold">Hello,</h2>
             <h1 className="text-6xl font-bold">
               I'm <span className="text-[#fa9821]">Shivraj</span>
@@ -33,16 +32,10 @@ const Intro = () => {
           </div>
 
           <div>
-            <img src="profile.png" alt="profile" className="h-lvh" />
+            <img src="profile.png" alt="profile" />
           </div>
         </div>
       </div>
-
-      <Skill />
-      
-      <br />
-      <br />
-      <br />
     </>
   );
 };

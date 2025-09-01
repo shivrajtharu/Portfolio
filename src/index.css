@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+*{
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Montserrat", sans-serif;
+  background: rgb(30, 30, 30);
+  color: white;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.link:hover{
+ color: #ff9900;
+ padding-bottom: 0.5rem;
+ border-bottom: 2px solid #ff9900;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+}
